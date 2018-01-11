@@ -1,0 +1,82 @@
+body {
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff !important;
+}
+.no-padding {
+    padding: 0;
+}
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    height: 40px;
+    background-color: #262626;
+    color: #fff;
+    padding: 10px;
+    z-index: 2;
+}
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0px !important;    
+        min-height: 60px;
+        margin-bottom: 0;
+    }
+}
+
+.overlay {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    background: rgba(0,0,0,0.5);
+    height: 60px;
+    display: block;
+}
+.overlay .text {
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 22px;
+}
+span .inner {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 3px;
+    margin-bottom: 6px;
+    display: inline-block;
+    border-bottom: 0px solid rgb(255, 255, 255);
+}
+.products {
+    cursor: pointer;
+}
+.product-img::before{
+  /*background-color: rgba(0, 0, 0, 0.245);*/
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  transition: all 0.3s;
+}
+.products:hover .product-img::before {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.products:hover .product-img .overlay  {
+    background-color: transparent;
+}
+.products2 {
+    padding: 20px 0;
+}
