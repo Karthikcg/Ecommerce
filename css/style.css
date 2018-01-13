@@ -31,7 +31,14 @@ footer {
         margin-bottom: 0;
     }
 }
-
+@media (max-width: 768px){
+    .navbar {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 0px !important; 
+        border: 1px solid transparent;
+    }   
+}
 .overlay {
     z-index: 1;
     position: absolute;
@@ -105,4 +112,93 @@ span .inner {
 }
 .mt-20 {
     margin-top: 20px;
+}
+
+.product-description .product-size ul#itemSizes {
+    display: inline-flex;
+    max-width: 400px;
+    width: 80%;
+    float: left;
+    margin-top: 20px;
+    clear: both;
+    list-style: none;
+}
+.product-description .product-size ul#itemSizes li {
+    margin-bottom: 15px;
+    height: 30px;
+    min-width: 30px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #1e81d6;
+    cursor: pointer;
+    padding: 3px 0;
+}
+.product-description {
+    color: #212121;
+}
+.cart-btn button {
+    padding: 18px 8px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    width: 50%;
+    border: none;
+    float: left;
+    background: #ff9f00;
+    color: #fff;
+    font-size: 16px;
+}
+
+._3TO20n ._28MqbX {
+    background: #fff;
+    border-radius: 2px;
+    min-height: 47px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    padding: 10px;
+}
+._3TO20n ._28MqbX ._1rvymr {
+    text-transform: uppercase;
+    padding: 13px 24px;
+    font-size: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 500;
+    color: #878787;
+    min-height: 47px;
+    border-radius: 2px 2px 0 0;
+}
+._3TO20n ._28MqbX ._1oTPyP {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+._3TO20n ._28MqbX ._2v_qcT {
+    border-top: 1px dashed #e0e0e0;
+    margin-bottom: 20px;
+}
+._3TO20n ._28MqbX ._2v_qcT ._1oTPyP {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+._1lD380, .text-black {
+    color: #212121;
+}
+._13rPhg .HNj6GJ {
+    color: #388e3c;
+    font-weight: 500;
+}
+.title h4 {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.bg-grey {
+    background-color: #eee;
+}
+.p-20 {
+    padding: 20px;
 }
