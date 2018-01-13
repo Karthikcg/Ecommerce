@@ -193,8 +193,11 @@ span .inner {
     color: #212121;
     font-size: 18px;
     font-weight: 600;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 20px;
+}
+.sub-title {
+    color: #212121;
 }
 .bg-grey {
     background-color: #eee;
@@ -202,3 +205,25 @@ span .inner {
 .p-20 {
     padding: 20px;
 }
+.cart-details {
+    color: #212121;
+}
+.no-border {
+    border: none !important;
+}
+.cart-desc-name {
+    position: relative;
+}
+
+.cart-desc-name h4, .cart-desc-name h5, .cart-desc-name i {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+}
+ .cart-desc-name p {
+    position: absolute;
+    top: 70%;
+    transform: translate(0, -50%);
+    margin: 0;
+ }
